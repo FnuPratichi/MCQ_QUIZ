@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz App</h1>
+        <div id="quiz-container">
+            <div id="question-prompt"></div>
+            <div id="answer-options">
+                <label><input type="radio" name="answer" value="a"> Option A</label><br>
+                <label><input type="radio" name="answer" value="b"> Option B</label><br>
+                <label><input type="radio" name="answer" value="c"> Option C</label><br>
+                <label><input type="radio" name="answer" value="d"> Option D</label><br>
+                
+            </div>
+            <button id="submit-answer">Submit</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
