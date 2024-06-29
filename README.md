@@ -1,1 +1,1 @@
-Mini quiz nuilt using Python , Flask , HTML, CSS, Javascript. 
+Mini quiz built using Python, Flask, HTML, CSS, and Javascript. 
